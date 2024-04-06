@@ -17,6 +17,11 @@ Rendering of first prototype:
 Block diagram:
 ![](images/block-diagram.png)
 
+According to the IQ3X0IL board schematics, the system +3V3 rail is rated for 9.74 amps, and is used for
+various onboard components as well. A typical M.2 SSD is specified for 2.5 to 3.0 amps so four of them at
+full load could exceed the power supply capacity. The riser board therefore uses a buck converter from
+the +12V rail to avoid overloading the system +3V3 supply.
+
 In addition to the power supply and clock buffer, a custom-programmed GreenPAK is used to handle
 power sequencing and ancillary PCIe signals like PERST# and CLKREQ#.
 
