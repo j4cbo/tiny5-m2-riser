@@ -10,6 +10,10 @@ a SATA boot SSD, and an M.2 2230 E-key module.
 
 ![](images/prototype2.jpg)
 
+The production boards will have two additional features not in the prototype:
+- An open-backed PCIe slot allowing x8 or x16 cards to physically fit
+- A standard 12 volt fan connector
+
 First prototype installed:
 ![](images/prototype1.jpg)
 
