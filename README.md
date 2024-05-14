@@ -6,19 +6,13 @@ It builds on badger707's excellent work investigating [PCIe bifurcation](https:/
 and adding a [second M.2 slot](https://github.com/badger707/m920q-dual-NVME/) to these systems.
 
 Fully loaded with this riser, an M920x can support four M.2 2280 M-key SSDs, as well as an additional PCI card,
-a SATA boot SSD, and an M.2 2230 E-key module.
+a SATA boot SSD, and an M.2 2230 E-key module. It also provides a standard 12 volt fan header.
 
-![](images/prototype2.jpg)
+![](images/riser-final-1.jpg)
 
-The production boards will have two additional features not in the prototype:
-- An open-backed PCIe slot allowing x8 or x16 cards to physically fit
-- A standard 12 volt fan connector
+![](images/riser-final-2.jpg)
 
-First prototype installed:
-![](images/prototype1.jpg)
-
-Rendering of first prototype:
-![](images/prototype1-pcb.png)
+![](images/riser-final-installed.jpg)
 
 Block diagram:
 ![](images/block-diagram.png)
@@ -31,8 +25,9 @@ the +12V rail to avoid overloading the system +3V3 supply.
 In addition to the power supply and clock buffer, a custom-programmed GreenPAK is used to handle
 power sequencing and ancillary PCIe signals like PERST# and CLKREQ#.
 
-The first prototype is functional and in use in my M920q. As of 4/23/2024, I've ordered a production batch
-(expected by the end of May) and am taking pre-orders, see issue #1.
+As of 5/14/2024, I have a production batch of these and am now selling them, see issue #1.
+
+Using this **requires soldering** two 0402 resistors on the motherboard to enable PCIe bifurcation.
 
 ## Mounting Bracket
 
