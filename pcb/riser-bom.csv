@@ -1,0 +1,17 @@
+Item #,Designator,Qty,Manufacturer,Mfg Part #,Description / Value,Package/Footprint,Type,Notes
+1,"C1,C2,C3,C4,C10,C11",6,Murata,GRM21BZ71A226ME15L,22uF 10V X7R ceramic capacitor,0805,SMD,
+2,"C5,C6",2,TDK,C3225X7R1E106K250AC,10uF 25V X7R ceramic capacitor,1210,SMD,
+3,"C7,C9,C12,C13,C14,C15,C16",7,Murata,GRM155R71C104KA88J,0.1uF 16V X7R ceramic capacitor,0402,SMD,Substitutions OK
+4,R6,1,Yageo,RC0402FR-072K21L,2.21k 1% resistor,0402,SMD,Substitutions OK
+5,R5,1,Yageo,RC0402FR-0710KL,10k 1% resistor,0402,SMD,Substitutions OK
+6,C8,1,Kemet,GMC04X7R103K25NT,10nF ceramic capacitor,0402,SMD,Substitutions OK
+7,"C18,C19",2,Samsung,CL21A106KAYNNNG,10uF 25V X5R ceramic capacitor,0805,SMD,Substitutions OK
+8,R4,1,Yageo,RC0402FR-0712KL,12k 1% resistor,0402,SMD,Substitutions OK
+9,R3,1,Yageo,RC0402FR-0748K7L,48.7k 1% resistor,0402,SMD,Substitutions OK
+10,"J1,J2",2,Amphenol,MDT350M01001VT,Connector M.2 M-key vertical,SMD 67P,SMD,
+11,U1,1,Flex Power Modules,PMU8418 D,DC DC converter 44W,SMD 24P,SMD,
+12,IC1,1,Skyworks,SI53152-A01AGM,PCIe 1:2 clock fan-out buffer,SMD 24P,SMD,
+13,IC2,1,Renesas,SLG46824V,Greenpak programmable mixed signal,SMD 20P,SMD,
+14,J3,1,Foxconn,2EG03211-D2DB-DF,Connector PCIe 64pos open ended,PCIe slot,T/H,"Lotes AAA-PCI-161-K03 also OK, must be open end"
+15,J4,1,Molex,22-05-3031,Connector R/A 3pos 2.54mm,2.54mm header,T/H,
+16,"R1,R2,R7,R8,R9,R10,D1,C17",8,DNP,DNP,DNP,DNP,DNP,
