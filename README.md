@@ -28,6 +28,7 @@ power sequencing and ancillary PCIe signals like PERST# and CLKREQ#.
 As of 5/14/2024, I have a production batch of these and am now selling them, see issue #1.
 
 Using this **requires soldering** two 0402 resistors on the motherboard to enable PCIe bifurcation.
+![](images/resistors.png)
 
 ## Mounting Bracket
 
