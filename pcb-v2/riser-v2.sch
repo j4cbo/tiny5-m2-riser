@@ -13871,7 +13871,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="C11" library="rcl" deviceset="C-US" device="C0603" value="10uF 10V"/>
 <part name="C10" library="rcl" deviceset="C-US" device="C0603" value="10uF 10V"/>
-<part name="C5" library="rcl" deviceset="C-US" device="C0402" value="0.1uF"/>
+<part name="C5" library="rcl" deviceset="C-US" device="C0402" value="DNP"/>
 <part name="P+5" library="supply1" deviceset="+12V" device=""/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0402" value="2.2k"/>

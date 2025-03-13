@@ -3611,7 +3611,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="4.935" y="14.965" size="1" layer="25" font="vector" ratio="16" rot="R180"/>
 <attribute name="VALUE" x="6.635" y="16.405" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C5" library="rcl" package="C0402" value="0.1uF" x="83" y="20" smashed="yes" rot="R270">
+<element name="C5" library="rcl" package="C0402" value="DNP" x="83" y="20" smashed="yes" rot="R270">
 <attribute name="NAME" x="85.3" y="12.5" size="1" layer="25" font="vector" ratio="16" rot="R270"/>
 <attribute name="VALUE" x="81.095" y="20.635" size="1.27" layer="27" rot="R270"/>
 </element>
