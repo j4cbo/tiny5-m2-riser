@@ -1,12 +1,14 @@
 # Tiny5 M.2 Riser
 
 This is a project I've been working on to create a custom riser board for Lenovo Tiny5
-series (M720q/M920q/M920x, etc) to support an additional two M.2 SSDs as well as a 10G Ethernet card.
+series (M920q/M920x/P330 Tiny) to support an additional two M.2 SSDs as well as a 10G Ethernet card.
 It builds on badger707's excellent work investigating [PCIe bifurcation](https://github.com/badger707/m920q-pcie-bifurcation/)
 and adding a [second M.2 slot](https://github.com/badger707/m920q-dual-NVME/) to these systems.
 
 Fully loaded with this riser, an M920x can support four M.2 2280 M-key SSDs, as well as an additional PCI card,
 a SATA boot SSD, and an M.2 2230 E-key module. It also provides a standard 12 volt fan header.
+
+This works **only** with the M920q, M920x, and P330 Tiny. Other systems in the Tiny5 family do not support PCIe bifurcation.
 
 ![](images/riser-final-1.jpg)
 
