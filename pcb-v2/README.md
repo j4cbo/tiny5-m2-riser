@@ -6,13 +6,14 @@ The riser can be assembled by any PCB manufacturing contractor. I used [JLCPCB](
 - Upload `riser-v2.zip` with the "Add gerber file" box on the home page.
 - Some properties of the PCB (4 layers, outside dimensions) will be auto-detected, but you will need to change several options:
   - Surface Finish: **ENIG**
-  - Impedance Control: **Yes**
   - Layer Stackup: **JLC04161H-7628** (this is critical for the PCIe bus to work!)
+  - Impedance Control: **Yes**
+    - Select +-10% option (Excel template is included in Gerber zip)
   - Mark on PCB: **Order Number (Specify Position)**
   - Gold Fingers: **Yes**
   - 30° finger chamfered: **No** 
 - Check the "PCB Assembly" box and make sure these options are selected:
-  - PCBA Type: **Economic**
+  - PCBA Type: **Standard** (Economic not available)
   - Assembly Side: **Top Side**
   - Edge Rails/Fiducials: **Added by JLCPCB**
   - Parts Selection: **By Customer**
